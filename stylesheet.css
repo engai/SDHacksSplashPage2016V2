@@ -1,0 +1,111 @@
+html, body {
+  background-color: #AEE8FB;
+  height: 100%;
+  width: 100%;
+  margin: 0 0;
+}
+
+.overlay {
+  position: fixed;
+  background-color: rgba(255,255,255,0.5);
+  height: 100vw;
+  width: 100vw;
+  z-index: 100;
+  top: -200px;
+}
+
+.beach {
+  position: fixed;
+  top: 475px;
+  width: 100%;
+  height: 300px;
+  background-color: #EBC288;
+  z-index: 6;
+}
+
+.seafoam {
+  position: fixed;
+  top: 460px;
+  width: 100%;
+  height: 30px;
+  background-color: #EBEAD1;
+  z-index: 7;
+}
+.wave3 {
+  position: absolute;
+  top: 300px;
+  height: 240px;
+  width: 100vw;
+  background: transparent url("wave_dark.png") round 0 0;
+  z-index: 5;
+  -webkit-animation: wave3Animation 5.77778s 0.1s infinite ease-in-out;
+  -moz-animation: wave3Animation 5.77778s 0.1s infinite ease-in-out;
+  animation: wave3Animation 5.77778s 0.1s infinite ease-in-out;
+}
+.wave2 {
+  position: absolute;
+  background: transparent url("wave_med.png") round 0 0;
+  top: 250px;
+  height: 240px;
+  width: 100vw;
+  z-index: 4;
+  -webkit-animation: wave2Animation 4s infinite reverse 0.4s ease-in-out;
+  -moz-animation: wave2Animation 4s infinite reverse 0.4s ease-in-out;
+  animation: wave2Animation 4s infinite reverse 0.4s ease-in-out;
+}
+.wave1 {
+  display: block;
+  position: relative;
+  background: transparent url("wave_light.png") round 0 0;
+  height: 200px;
+  width: 100vw;
+  top: 350px;
+  z-index: 3;
+  -webkit-animation: wave1Animation 7s infinite 0.7s ease-in-out;
+  -moz-animation: wave1Animation 7s infinite 0.7s ease-in-out;
+  animation: wave1Animation 7s infinite 0.7s ease-in-out;
+}
+
+@-webkit-keyframes wave3Animation {
+  0% {
+    top: 300px;
+  }
+  25% {
+    top: 315px;
+  }
+  75% {
+    top: 285px;
+  }
+  100% {
+    top: 300px;
+  }
+}
+
+@-webkit-keyframes wave2Animation {
+  0% {
+    top: 250px;
+  }
+  25% {
+    top: 265px;
+  }
+  75% {
+    top: 235px;
+  }
+  100% {
+    top: 250px;
+  }
+}
+@-webkit-keyframes wave1Animation {
+  0% {
+    top: 200px;
+  }
+  25% {
+    top: 215px;
+  }
+  75% {
+    top: 185px;
+  }
+  100% {
+    top: 200px;
+  }
+}
