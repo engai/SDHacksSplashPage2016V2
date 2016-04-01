@@ -36,7 +36,7 @@ html, body {
   top: 300px;
   height: 240px;
   width: 100vw;
-  background: transparent url("wave_dark.png") round 0 0;
+  background: transparent url("Waves-07.png") round 0 0;
   z-index: 5;
   -webkit-animation: wave3Animation 5.77778s 0.1s infinite ease-in-out;
   -moz-animation: wave3Animation 5.77778s 0.1s infinite ease-in-out;
@@ -44,7 +44,7 @@ html, body {
 }
 .wave2 {
   position: absolute;
-  background: transparent url("wave_med.png") round 0 0;
+  background: transparent url("Waves-08.png") round 0 0;
   top: 250px;
   height: 240px;
   width: 100vw;
@@ -56,8 +56,8 @@ html, body {
 .wave1 {
   display: block;
   position: relative;
-  background: transparent url("wave_light.png") round 0 0;
-  height: 200px;
+  background: transparent url("Waves-09.png")round 0 0;
+  height: 240px;
   width: 100vw;
   top: 350px;
   z-index: 3;
@@ -69,43 +69,55 @@ html, body {
 @-webkit-keyframes wave3Animation {
   0% {
     top: 300px;
+    left: 0px;
   }
   25% {
     top: 315px;
+    left: 15px;
   }
   75% {
     top: 285px;
+    left: -15px;
   }
   100% {
     top: 300px;
+    left: 0px;
   }
 }
 
 @-webkit-keyframes wave2Animation {
   0% {
     top: 250px;
+    left: 0px;
   }
   25% {
     top: 265px;
+    left: 15px;
   }
   75% {
     top: 235px;
+    left: -15px;
   }
   100% {
     top: 250px;
+    left: 0px;
   }
 }
 @-webkit-keyframes wave1Animation {
   0% {
     top: 200px;
+    left: 0px;
   }
   25% {
     top: 215px;
+    left: 15px;
   }
   75% {
     top: 185px;
+    left: -15px;
   }
   100% {
     top: 200px;
+    left: 0px;
   }
 }
