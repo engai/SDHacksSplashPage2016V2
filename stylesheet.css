@@ -36,7 +36,7 @@ html, body {
   top: 400px;
   height: 112px;
   width: 100vw;
-  background: transparent url("Waves-10.png") round 0 0;
+  background: transparent url("Waves-12.png") round 0 0;
   z-index: 5;
   -webkit-animation: wave3Animation 5.77778s 0.1s infinite ease-in-out;
   -moz-animation: wave3Animation 5.77778s 0.1s infinite ease-in-out;
@@ -44,7 +44,7 @@ html, body {
 }
 .wave2 {
   position: absolute;
-  background: transparent url("Waves-11.png") round 0 0;
+  background: transparent url("Waves-10.png") round 0 0;
   top: 350px;
   height: 112px;
   width: 100vw;
@@ -56,7 +56,7 @@ html, body {
 .wave1 {
   display: block;
   position: relative;
-  background: transparent url("Waves-12.png")round 0 0;
+  background: transparent url("Waves-11.png")round 0 0;
   height: 112px;
   width: 100vw;
   top: 300px;
