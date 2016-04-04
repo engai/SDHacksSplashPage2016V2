@@ -33,10 +33,10 @@ html, body {
 }
 .wave3 {
   position: absolute;
-  top: 300px;
-  height: 240px;
+  top: 400px;
+  height: 112px;
   width: 100vw;
-  background: transparent url("Waves-07.png") round 0 0;
+  background: transparent url("Waves-10.png") round 0 0;
   z-index: 5;
   -webkit-animation: wave3Animation 5.77778s 0.1s infinite ease-in-out;
   -moz-animation: wave3Animation 5.77778s 0.1s infinite ease-in-out;
@@ -44,9 +44,9 @@ html, body {
 }
 .wave2 {
   position: absolute;
-  background: transparent url("Waves-08.png") round 0 0;
-  top: 250px;
-  height: 240px;
+  background: transparent url("Waves-11.png") round 0 0;
+  top: 350px;
+  height: 112px;
   width: 100vw;
   z-index: 4;
   -webkit-animation: wave2Animation 4s infinite reverse 0.4s ease-in-out;
@@ -56,10 +56,10 @@ html, body {
 .wave1 {
   display: block;
   position: relative;
-  background: transparent url("Waves-09.png")round 0 0;
-  height: 240px;
+  background: transparent url("Waves-12.png")round 0 0;
+  height: 112px;
   width: 100vw;
-  top: 350px;
+  top: 300px;
   z-index: 3;
   -webkit-animation: wave1Animation 7s infinite 0.7s ease-in-out;
   -moz-animation: wave1Animation 7s infinite 0.7s ease-in-out;
@@ -67,6 +67,43 @@ html, body {
 }
 
 @-webkit-keyframes wave3Animation {
+  0% {
+    top: 400px;
+    left: 0px;
+  }
+  25% {
+    top: 415px;
+    left: 15px;
+  }
+  75% {
+    top: 385px;
+    left: -15px;
+  }
+  100% {
+    top: 400px;
+    left: 0px;
+  }
+}
+
+@-webkit-keyframes wave2Animation {
+  0% {
+    top: 350px;
+    left: 0px;
+  }
+  25% {
+    top: 365px;
+    left: 15px;
+  }
+  75% {
+    top: 335px;
+    left: -15px;
+  }
+  100% {
+    top: 350px;
+    left: 0px;
+  }
+}
+@-webkit-keyframes wave1Animation {
   0% {
     top: 300px;
     left: 0px;
@@ -81,43 +118,6 @@ html, body {
   }
   100% {
     top: 300px;
-    left: 0px;
-  }
-}
-
-@-webkit-keyframes wave2Animation {
-  0% {
-    top: 250px;
-    left: 0px;
-  }
-  25% {
-    top: 265px;
-    left: 15px;
-  }
-  75% {
-    top: 235px;
-    left: -15px;
-  }
-  100% {
-    top: 250px;
-    left: 0px;
-  }
-}
-@-webkit-keyframes wave1Animation {
-  0% {
-    top: 200px;
-    left: 0px;
-  }
-  25% {
-    top: 215px;
-    left: 15px;
-  }
-  75% {
-    top: 185px;
-    left: -15px;
-  }
-  100% {
-    top: 200px;
     left: 0px;
   }
 }
